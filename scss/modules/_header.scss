@@ -2,7 +2,7 @@
 	background: url('../images/header-bg.jpg') no-repeat center center;
 	background-size: cover;
 	height: 100vh;
-	min-height: 800px;
+	min-height: 850px;
 	padding-top: 1px;
 	width: 100%;
 	.cahee-container {
@@ -70,3 +70,14 @@
 		}
 	}
 }
+
+.scroll {
+	margin-top: 160px;
+	display: flex;
+	justify-content: center;
+	
+	&__link {
+		
+	}
+}
+
