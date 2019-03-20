@@ -13,6 +13,8 @@
 		
 		.menu {
 			display: flex;
+			justify-content: flex-end;
+
 			
 			&__item:not(:last-child) {
 				margin-right: 40px;
