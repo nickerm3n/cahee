@@ -1,0 +1,29 @@
+//
+
+.about-us {
+	min-height: 700px;
+	height: 100%;
+	background: #02b6b6;
+	
+	&__img-wrapper {
+		min-height: 700px;
+		display: flex;
+		align-items: center;
+		
+	}
+}
+
+.about-us-title {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: #fff;
+	
+	&__title {
+		font-weight: 700px;
+		font-size: 90px;
+		line-height: .9;
+		padding-bottom: 20px;
+	}
+}

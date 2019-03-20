@@ -2,11 +2,13 @@
 	background: url('../images/header-bg.jpg') no-repeat center center;
 	background-size: cover;
 	height: 100vh;
-	min-height: 850px;
+	min-height: 800px;
 	padding-top: 1px;
 	width: 100%;
+	position: relative;
 	.cahee-container {
 		margin-top: 55px;
+		
 	}
 	
 	.cahee-nav {
@@ -72,12 +74,8 @@
 }
 
 .scroll {
-	margin-top: 160px;
-	display: flex;
-	justify-content: center;
-	
-	&__link {
-		
-	}
+	position: absolute;
+	bottom: 35px;
+	left: 50%;
 }
 
