@@ -1,0 +1,53 @@
+.our-servise {
+	background: #68b1ec;
+	min-height: 790px;
+	
+	&__list {
+		padding-top: 180px;
+		
+		&-item {
+			margin-bottom: 20px;
+			height: 100px;
+			background: #FFF;
+			color: $black;
+			font-size: 20px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			text-align: center;
+			padding-right: 25px;
+			font-weight: 700;
+			padding-left: 70px;
+			box-shadow: 0 5px 10px 2px rgba(0, 0, 0, .4);
+		}
+
+		&-item:nth-child(3) {
+			padding-left: 32px;
+		}
+	}
+
+	.wrapper {
+		min-height: 790px;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		color: #fff;
+		font-size: 70px;
+		font-weight: 700;
+		
+		.our-servise__img {
+			position: relative;
+			height: 525px;
+			width: 462px;
+			background: url('../images/tomat.png');
+			background-size: cover;
+			}
+
+		.our-servise__title {
+			position: absolute;
+			bottom: 50%;
+			transform: translateY(65%);
+		}
+	}	
+}

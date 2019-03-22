@@ -1,0 +1,27 @@
+.gallery {
+	background: #ffe92f;
+	padding: 90px 0 120px;
+	text-align: center;
+
+
+	&__column {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	&__title {		
+		font-size: 90px;
+		font-weight: 700;
+		padding-bottom: 40px;
+	}
+
+	&__desc {
+		padding-bottom: 50px;
+	}
+	
+	&__sub-row {
+		margin-top: 30px;
+	}
+}
+
