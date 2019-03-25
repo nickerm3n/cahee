@@ -22,11 +22,11 @@
 				<div class="col-7 offset-3">
 					<ul class="menu">
 						<li class="menu__item"><a href="#" class="menu__link menu__link--active">home</a></li>
-						<li class="menu__item"><a href="#" class="menu__link">about</a></li>
-						<li class="menu__item"><a href="#" class="menu__link">services</a></li>
-						<li class="menu__item"><a href="#" class="menu__link">gallery</a></li>
-						<li class="menu__item"><a href="#" class="menu__link">blog</a></li>
-						<li class="menu__item"><a href="#" class="menu__link">contact</a></li>
+						<li class="menu__item"><a href="#about-us" class="menu__link">about</a></li>
+						<li class="menu__item"><a href="#our-servise" class="menu__link">services</a></li>
+						<li class="menu__item"><a href="#gallery" class="menu__link">gallery</a></li>
+						<li class="menu__item"><a href="#subscribe" class="menu__link">blog</a></li>
+						<li class="menu__item"><a href="#contact" class="menu__link">contact</a></li>
 					</ul>
 				</div>
 			</nav>
@@ -47,6 +47,7 @@
 	</header>
 
 	<div class="about-us">
+		<a href="#" name="about-us"></a>
 		<section class="container">
 			<div class="row">
 				<div class="col-6 about-us__img-wrapper">
@@ -60,6 +61,7 @@
 						<h2 class="about-us-title__title">About Us</h2>
 						<p class="about-us-title__desc">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
 						Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+						
 					</div>
 				</div>
 			</div>
@@ -67,6 +69,7 @@
 	</div>
 
 	<div class="our-servise">
+		<a href="#" name="our-servise"></a>
 		<div class="container">
 			<div class="row">
 				<div class="col-5 offset-1">
@@ -101,42 +104,186 @@
 	</div>
 
 	<div class="gallery">
+		<a href="#" name="gallery"></a>
 		<div class="container">
 			<div class="row">
 				<div class="col">
 					<div class="gallery__main">
 						<h1 class="gallery__title">Gallery</h1>
-						<p class="gallery__desc">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et<br> dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br> ullamco laboris nisi ut aliquip ex ea commodo consequat.</p
+						<p class="gallery__desc">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et<br> dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br> ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-8">
+						<img src="images/1.jpg" alt="1" class="gallery__img gallery__img--big">
+					</div>
+					<div class="col-4 gallery__column">
+						<img src="images/2.jpg" alt="2" class="gallery__img">
+						<img src="images/3.jpg" alt="3"class="gallery__img">
+					</div> 
+				</div>
+
+				<div class="row gallery__sub-row">
+					<div class="col">
+						<img src="images/4.jpg" alt="4" class="gallery__img">
+					</div>
+					<div class="col">
+						<img src="images/5.jpg" alt="5" class="gallery__img">
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12">
+				<div class="cahee-link">
+					<a href="#" class="cahee-link__link">view more</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="subscribe">
+		<a href="#" name="subscribe"></a>
+		<div class="container subscribe-container">
+			<div class="row">
+				<div class="col-6">
+					<h3 class="subscribe__title">Subscribe To Us</h3>
+					<p class="subscribe__desc">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 				</div>
 			</div>
 
 			<div class="row">
 				<div class="col-8">
-					<img src="images/1.jpg" alt="1" class="gallery__img">
+					<form action="#" class="row">
+						<div class="col-9">
+							<input type="email" placeholder="Your email address..." class="subscribe__email">
+						</div>
+						<div class="col-3">
+							<button type="submit" class="subscribe__btn">subscribe</button> 
+						</div>
+					</form>
 				</div>
-				<div class="col-4 gallery__column">
-					<img src="images/2.jpg" alt="2" class="gallery__img">
-					<img src="images/3.jpg" alt="3"class="gallery__img">
-				</div> 
-			</div>
-
-			<div class="row gallery__sub-row">
-				<div class="col">
-					<img src="images/4.jpg" alt="4" class="gallery__img">
-				</div>
-				<div class="col">
-					<img src="images/5.jpg" alt="5" class="gallery__img">
-				</div>
-			</div>
-		</div>
-
-		<div class="col-12">
-			<div class="cahee-link">
-				<a href="#" class="cahee-link__link">view more</a>
 			</div>
 		</div>
 	</div>
+
+	<div class="blog">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="gallery__main">
+						<h1 class="gallery__title">Blog</h1>
+						<p class="gallery__desc">Dolore magna aliqua. Ut enim ad minim veniam, quis <br>nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute <br>irure dolor in reprehenderit in voluptate velit.</p>
+					</div>
+					<div class="row">
+						<div class="col">
+							<img src="images/gradient.jpg" alt="gradient" class="blog__img">
+							<div class="blog__date">
+								<span class="date">20</span><span>nov</span>
+							</div>
+
+							<div class="article">
+								<a href="#" class="article__title">Green Smoothies: Too Much of a Good Thing?</a>
+								<a href="#" class="article__author">By Auskteez - 2 hours ago</a>
+							</div>
+						</div>
+
+						<div class="col">
+							<img src="images/green.jpg" alt="gradient2" class="blog__img">
+							<div class="blog__date">
+								<span class="date">14</span><span>nov</span>
+							</div>
+
+							<div class="article">
+								<a href="#" class="article__title">Growing Food and a “Thirst” for Innovation</a>
+								<a href="#" class="article__author">By Auskteez - 3 hours ago</a>
+							</div>
+						</div>
+
+						<div class="col">
+							<img src="images/gradient2.jpg" alt="gradient3" class="blog__img">
+							<div class="blog__date">
+								<span class="date">10</span><span>nov</span>
+							</div>
+
+							<div class="article">
+								<a href="#" class="article__title">Pesticides & Food: What You Need to Know</a>
+								<a href="#" class="article__author">By Auskteez - 6 hours ago</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12">
+				<div class="cahee-link">
+					<a href="#" class="cahee-link__link cahee-link__link--red">view more</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="contact">
+		<a href="#" name="contact"></a>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="gallery__main">
+						<h1 class="gallery__title">Contact</h1>
+						<p class="gallery__desc">For new projects, ideas, business or <br>anything
+						you'd like to discuss, contact with me!</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-5">
+					<form action="#" method="post" accept-charset="utf-8" class="contact__form">
+						<input type="text" name="full-name" class="contact__form-item" placeholder="Your name...">
+						<input type="email" name="last-name" class="contact__form-item" placeholder="Your email...">
+						<input type="tel" name="last-name" class="contact__form-item" placeholder="Your phone number...">
+
+						<input type="textarea" name="your-msg" class="contact__form-item contact__form-item--textarea" placeholder="Your text...">
+					</form>
+				</div>
+
+				<div class="col-4 offset-2">
+					<div class="contact__wrapper">
+						<div class="contact__item">
+							<span class="contact__item-title">addrees</span>
+							<address class="contact__item-desc">123 City name, Street, City, Country</address>
+						</div>
+
+						<div class="contact__item">
+							<span class="contact__item-title">email</span>
+							<p class="contact__item-desc">cahee@domain.com</p>
+						</div>
+
+						<div class="contact__item">
+							<span class="contact__item-title">phone</span>
+							<p class="contact__item-desc">+012 345 6789</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="cahee-footer">
+		<div class="container container__footer">
+			<div class="row">
+				<div class="col-4">
+					<p>© 2015 Company. All right reserved.</p>
+				</div>
+				<div class="col-2 offset-1">
+					<img src="images/logo-footer.png" alt="logo-footer" class="logo-footer">
+				</div>
+				<div class="col-3 offset-2">
+					<p class="author">Made with <span>love</span> by Auskteez</p>
+				</div>
+			</div>
+		</div>
+	</footer>
 	<!-- LiveReload Script -->
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
